@@ -10,7 +10,7 @@ import (
 func main() {
 	var err error
 	var input []byte
-	var reader bytes.Reader
+	var reader *bytes.Reader
 
 	inputFile := "input.txt"
 
